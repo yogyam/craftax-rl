@@ -1,0 +1,38 @@
+{
+  "baselines/ppo": {
+    "weights_sha256": "6beb5aec9c29d1d08a6b04b563d5797e22f327644ed3e7ddd445c941d970b6e8",
+    "source": "saved policy snapshot",
+    "inference": "numpy",
+    "observation_dim": 1345
+  },
+  "policies/run1_ppo": {
+    "weights_sha256": "f4b0d8869a262e3acb58ce91f9e14f69cd19b40f23a766c7a010c7ffc3b0860b",
+    "source": "saved policy snapshot",
+    "inference": "numpy",
+    "observation_dim": 1345
+  },
+  "policies/run2_shaped": {
+    "weights_sha256": "fe1d7a177d752a4d49803a2831afe5fd4f6017a9896a1bca5de2671058d9bdfd",
+    "source": "saved policy snapshot",
+    "inference": "numpy",
+    "observation_dim": 1345
+  },
+  "policies/run3_selective": {
+    "weights_sha256": "a2fa2d374c04b25cbca47ff70b015afd7fc8acb80fc5db7420e27a4670e1c951",
+    "source": "saved policy snapshot",
+    "inference": "numpy",
+    "observation_dim": 1345
+  },
+  "policies/run4_memory": {
+    "weights_sha256": "4372da5041a21bd94d4f053514509a1ddfe0ef25cea4e166575074e993619fca",
+    "source": "saved policy snapshot",
+    "inference": "numpy",
+    "observation_dim": 1350
+  },
+  "policies/run5_curriculum": {
+    "weights_sha256": "0205ecaa480174f01611e7e7741c81182ddca4a4c86a868f741cadf7b3c3408c",
+    "source": "saved policy snapshot",
+    "inference": "numpy",
+    "observation_dim": 1350
+  }
+}

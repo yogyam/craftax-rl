@@ -1,0 +1,45 @@
+{
+  "metric": "mean distinct achievements per episode (maximum 22)",
+  "episodes_per_run": 100,
+  "source": "Contemporaneous experiment notes; external per-episode logs and seeds are unavailable.",
+  "baseline_mean": 13.2,
+  "runs": [
+    {
+      "run": 1,
+      "mean": 19.22,
+      "ci": null
+    },
+    {
+      "run": 2,
+      "mean": 19.96,
+      "ci": [
+        19.53,
+        20.37
+      ]
+    },
+    {
+      "run": 3,
+      "mean": 20.0,
+      "ci": [
+        19.49,
+        20.45
+      ]
+    },
+    {
+      "run": 4,
+      "mean": 20.71,
+      "ci": [
+        20.29,
+        21.07
+      ]
+    },
+    {
+      "run": 5,
+      "mean": 20.77,
+      "ci": [
+        20.33,
+        21.12
+      ]
+    }
+  ]
+}

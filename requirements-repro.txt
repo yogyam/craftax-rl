@@ -1,0 +1,8 @@
+# Direct dependency versions present in the original experiment environment.
+# Transitive dependencies and accelerator builds are not fully locked.
+craftax==1.6.1
+jax==0.11.2
+jaxlib==0.11.2
+flax==0.12.10
+optax==0.2.8
+numpy==2.5.4
