@@ -1,0 +1,45 @@
+{
+  "policy_dir": "policies/run5_curriculum",
+  "seed": 2000,
+  "renderer": "Craftax-Classic native pixel renderer, original lighting and HUD",
+  "block_pixel_size": 64,
+  "steps_simulated": 3563,
+  "captures": {
+    "crafting.png": {
+      "title": "Crafting an iron sword",
+      "frame_step": 202,
+      "achievement_step": 202,
+      "timing": "after the action unlocking the achievement",
+      "achievements_in_frame": 17,
+      "light_level": 0.2646996080875397,
+      "dimensions": [
+        576,
+        576
+      ]
+    },
+    "plant.png": {
+      "title": "Harvesting a ripe plant",
+      "frame_step": 843,
+      "achievement_step": 844,
+      "timing": "before the action unlocking the achievement",
+      "achievements_in_frame": 20,
+      "light_level": 0.4251691997051239,
+      "dimensions": [
+        576,
+        576
+      ]
+    },
+    "diamond.png": {
+      "title": "Mining a diamond",
+      "frame_step": 3562,
+      "achievement_step": 3563,
+      "timing": "before the action unlocking the achievement",
+      "achievements_in_frame": 21,
+      "light_level": 0.26470133662223816,
+      "dimensions": [
+        576,
+        576
+      ]
+    }
+  }
+}

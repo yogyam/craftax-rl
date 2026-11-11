@@ -1,9 +1,14 @@
 # Attribution and project provenance
 
 Craftax is by Michael Matthews and collaborators. The game is installed as the
-`craftax` dependency; its implementation and assets are not vendored here.
+`craftax` dependency; its implementation and source asset files are not vendored here.
 See the [official repository](https://github.com/MichaelTMatthews/Craftax) and
 [ICML 2024 paper](https://proceedings.mlr.press/v235/matthews24a.html).
+
+The gameplay screenshots in `docs/gameplay` are rendered captures of the saved
+run-5 policy, using Craftax-Classic's native renderer and upstream game textures.
+They preserve the original lighting and inventory HUD. The capture script and
+seed/frame metadata are included so the images can be reproduced.
 
 The reference PPO loop, baseline policy and baseline checkpoint were supplied
 as starter code. This project extends them with configurable MLPs, warm starts,

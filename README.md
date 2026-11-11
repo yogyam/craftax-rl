@@ -6,6 +6,17 @@ I worked through five main experiments in a modified Craftax-Classic environment
 
 The useful result was understanding when extra machinery helped. Scripts initially complemented the policy, then became a source of interference as the network improved. Late-game practice improved the two hardest achievements, but the overall mean was almost unchanged.
 
+## Gameplay
+
+Selected milestones from the saved **run 5 agent on seed 2000**, captured with Craftax-Classic's native renderer, lighting and inventory HUD.
+
+| Crafting iron tools | Harvesting a plant | Finding a diamond |
+|:---:|:---:|:---:|
+| ![Agent beside its crafting table and furnace after making an iron sword](docs/gameplay/crafting.png) | ![Agent facing a ripe plant just before harvesting it](docs/gameplay/plant.png) | ![Agent facing a diamond block just before mining it](docs/gameplay/diamond.png) |
+| Step 202: iron sword crafted | Step 843: ripe plant ahead | Step 3562: diamond ahead |
+
+These are frames from an actual policy rollout. To reproduce them, install the optional image dependency with `python -m pip install -e '.[visuals]'`, then run `python scripts/capture_gameplay.py --seed 2000`. Frame details are in [captures.json](docs/gameplay/captures.json).
+
 ## Results at a glance
 
 | Experiment | Main change | Recorded external mean / 22 | Saved local mean / 22 | Local episodes |

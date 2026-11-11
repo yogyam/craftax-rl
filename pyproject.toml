@@ -13,6 +13,7 @@ dependencies = [
 
 [project.optional-dependencies]
 plots = ["matplotlib>=3.8"]
+visuals = ["Pillow>=10"]
 
 [build-system]
 requires = ["hatchling"]
